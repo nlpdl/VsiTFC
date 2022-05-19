@@ -6,3 +6,12 @@ For more detailed settings, please refer to [doc](https://fairseq.readthedocs.io
 * Python 3.7.0
 * Pytorch 1.8.2+cu111
 * fairseq 1.0.0a0+31d94f5
+
+## Preprocessing data
+```
+bash press_fr.sh
+```
+Remember to modify the *TEXT* and other fields in the file to process your dataset
+
+## Preprocessing Image
+For the extraction of image features, please refer to [bottom-up-attention.pytorch](https://github.com/MILVLG/bottom-up-attention.pytorch)<br>
