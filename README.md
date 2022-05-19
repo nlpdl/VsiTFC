@@ -27,6 +27,8 @@ The two relational matrices can be constructed by `get_matrix_dict.ipynb` and `g
 ```
 bash train_gmnmt.sh
 ```
-Create your own yaml file for hyperparameter setting.
+For detailed script settings, please refer to [doc](https://fairseq.readthedocs.io/en/latest/index.html)<br>
+
+Before training you have to modify the file [doc](https://fairseq.readthedocs.io/en/latest/index.html)
 
 ****************************************************************
