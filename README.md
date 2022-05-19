@@ -9,6 +9,14 @@ For more detailed settings, please refer to [doc](https://fairseq.readthedocs.io
 
 **************************************************************
 
+## Data set
+Our dataset uses multi30k. <br>
+
+The relevant training text and corresponding images can be downloaded [here](https://github.com/multi30k/dataset)
+
+
+**************************************************************
+
 ## Preprocessing data
 ```
 bash press_fr.sh
@@ -17,7 +25,7 @@ Remember to modify the `TEXT` and other fields in the file to process your datas
 
 **************************************************************
 
-## Preprocessing Image
+## Preprocessing image
 For the extraction of image features, please refer to [bottom-up-attention.pytorch](https://github.com/MILVLG/bottom-up-attention.pytorch)<br>
 
 The two relational matrices can be constructed by `get_matrix_dict.ipynb` and `get_matrix.ipynb`<br>
