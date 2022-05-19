@@ -8,6 +8,7 @@ Translate pre-processed data with a trained model.
 """
 
 import ast
+from asyncio.log import logger
 import logging
 import math
 import os
@@ -410,6 +411,7 @@ def cli_main():
         "model args (e.g. `AudioPretraining`)",
     )
     args = options.parse_args_and_arch(parser)
+    logger.info(args)
     main(args)
 
 

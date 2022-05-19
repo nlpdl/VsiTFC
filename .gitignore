@@ -114,9 +114,20 @@ ENV/
 /fairseq/modules/*_layer/*_forward.cu
 /fairseq/modules/*_layer/*_backward.cu
 /fairseq/version.py
+/fairseq/models/lstm_gmnmt.py
 
 # data
-data-bin/
+data-bin-de/
+data-bin-de-bpe/
+data-bin-fr/
+data-bin-fr-1/
+data-bin-fr-6000/
+data-bin-fr-8000/
+data-bin-fr-bpe/
+data-bin-fr-gmnmt/
+test-de-data/
+test-data/
+my_model/
 
 # reranking
 /examples/reranking/rerank_data
@@ -136,6 +147,22 @@ experimental/*
 wandb/
 
 # Hydra artifacts
+decoder_de.sh
+decoder_new_dy.sh
+decoder_o_new.sh
+decoder_o.sh
+decoder_rnn.sh
+decoder_test.sh
 nohup.out
 multirun
 outputs
+train_de_gmnmt.sh
+train_fr.sh
+train_de.sh
+train_new_dy.sh
+train_new_gru.sh
+train_new_up_tirl.sh
+train_new.sh
+train_o.sh
+train_old.sh
+train_rnn.sh
