@@ -22,7 +22,7 @@ For the extraction of image features, please refer to [bottom-up-attention.pytor
 
 The two relational matrices can be constructed by `get_matrix_dict.ipynb` and `get_matrix.ipynb`<br>
 
-You can download all preprocessed data in [Google Cloud Drive](https://drive.google.com/drive/folders/1Fy9be_udTY2i23gcxk9rWFbFPvnNE0b-?usp=sharing)
+You can download all the preprocessed data and the files needed to process the data in [Google Cloud Drive](https://drive.google.com/drive/folders/1Fy9be_udTY2i23gcxk9rWFbFPvnNE0b-?usp=sharing)
 **************************************************************
 
 ## Training
